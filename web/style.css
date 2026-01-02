@@ -1,0 +1,112 @@
+/* GLOBAL */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+  line-height: 1.7;
+}
+
+section {
+  padding: 100px 60px;
+  text-align: center;
+}
+
+/* NAVBAR */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #020617;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  z-index: 1000;
+}
+
+.navbar a {
+  color: #38bdf8;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #1e3a8a, #0ea5e9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 120px;
+}
+
+.hero h1 {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 26px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* HEADINGS */
+h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+/* PARAGRAPHS */
+p {
+  font-size: 22px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* CARDS */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 14px;
+  width: 260px;
+  font-size: 20px;
+}
+
+/* IMAGES */
+.result-img {
+  width: 85%;
+  max-width: 1000px;
+  margin: 40px auto;
+  display: block;
+  border-radius: 14px;
+}
+
+/* LINKS SECTION */
+.links {
+  margin-top: 30px;
+}
+
+.links a {
+  display: block;
+  margin: 16px;
+  color: #22d3ee;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+/* CHART */
+canvas {
+  max-width: 1100px;
+  margin: 40px auto;
+}

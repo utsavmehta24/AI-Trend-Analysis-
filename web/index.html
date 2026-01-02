@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Adoption Trend Analysis</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- AOS animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <a href="#home">Home</a>
+  <a href="#analysis">Analysis</a>
+  <a href="#results">Results</a>
+  <a href="#explore">Explore</a>
+  <a href="#conclusion">Conclusion</a>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <h1>AI Adoption Trend Analysis</h1>
+  <p>Visualizing how public interest in AI evolved using real-world data</p>
+</section>
+
+<!-- PROBLEM STATEMENT -->
+<section id="analysis" data-aos="fade-up">
+  <h2>Problem Statement</h2>
+  <p>
+    Artificial Intelligence has experienced rapid growth in recent years.
+    This project analyzes Google Trends data to understand how public interest
+    in AI tools has evolved over time and identifies major growth patterns.
+  </p>
+</section>
+
+<!-- INTERACTIVE CHART -->
+<section data-aos="fade-up">
+  <h2>AI Interest Over Time (Interactive)</h2>
+  <canvas id="trendChart"></canvas>
+</section>
+
+<!-- IMAGE RESULTS -->
+<section id="results" data-aos="fade-up">
+  <h2>Analysis Results</h2>
+
+  <img src="../visuals/chatgpt_trend.png"
+       alt="ChatGPT Trend"
+       class="result-img">
+
+  <img src="../visuals/yearly_average_interest.png"
+       alt="Yearly Average Interest"
+       class="result-img">
+</section>
+
+<!-- INSIGHTS -->
+<section data-aos="fade-up">
+  <h2>Key Insights</h2>
+
+  <div class="cards">
+    <div class="card" data-aos="fade-right">🚀 Rapid growth after 2022</div>
+    <div class="card" data-aos="fade-right">📈 Peaks during major AI launches</div>
+    <div class="card" data-aos="fade-right">🌍 Sustained global interest</div>
+  </div>
+</section>
+
+<!-- EXPLORE PROJECT -->
+<section id="explore" data-aos="fade-up">
+  <h2>Explore the Project</h2>
+  <p>View the complete implementation and analysis:</p>
+
+  <div class="links">
+    <a href="https://github.com/utsavmehta24/YOUR_REPO_NAME/tree/main/notebooks" target="_blank">
+      📒 Jupyter Notebooks
+    </a>
+    <a href="https://github.com/utsavmehta24/YOUR_REPO_NAME/tree/main/src" target="_blank">
+      🧠 Python Source Code
+    </a>
+    <a href="https://github.com/utsavmehta24/YOUR_REPO_NAME/tree/main/visuals" target="_blank">
+      📊 Analysis Visuals
+    </a>
+  </div>
+</section>
+
+<!-- CONCLUSION -->
+<section id="conclusion" data-aos="fade-up">
+  <h2>Conclusion</h2>
+  <p>
+    The analysis clearly shows that AI adoption has transitioned from minimal
+    interest to mainstream global attention. Data-driven visualization helps
+    transform raw trends into meaningful insights, highlighting AI’s growing
+    impact on society.
+  </p>
+</section>
+
+<!-- JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
